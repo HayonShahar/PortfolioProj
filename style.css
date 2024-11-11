@@ -1,0 +1,4 @@
+body, #aboutData, #homeData {
+    display: grid;
+    place-items: center;
+}
