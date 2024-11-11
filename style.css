@@ -1,4 +1,25 @@
-body, #aboutData, #homeData {
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body, #aboutData, #homeData, footer {
     display: grid;
     place-items: center;
+}
+
+#contactSocial{
+    list-style-type: none;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer hr{
+    width: 300px;
+}
+
+#love{
+    color: red;
 }
